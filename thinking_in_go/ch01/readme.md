@@ -8,3 +8,4 @@ A tree is a data structure similar to a linked list but instead of each node poi
 A structure is a way of representing the hierarchical nature of a structure in a graphical form.
 In trees ADT (Abstract Data Type), the order of the elements is not important. If we need ordering information,
 linear data structures like linked lists, stacks, queues, etc. can be used.
+
