@@ -27,3 +27,12 @@
     - 每过一层代理都会被覆盖掉，只需第一代理设置转发
     - 不会被伪造（客户端）
     
+#　一个加权负载均衡
+- Weight
+> 初始化时对节点约定的权重
+- currentWeight
+> 节点临时权重，每轮都会变化
+- effectiveWeight
+> 节点有效权重，默认与Weight相同
+- totalWeight
+> 所有节点有效权重之和：sum(effectiveWeight)
